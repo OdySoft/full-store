@@ -554,3 +554,14 @@ body{
 .rank-box:not(:first-child){
     margin-top: 9px;
 }
+#accept_202{
+    background: none;
+    margin-left: 24px;
+}
+.killer{
+    max-width: 281px;
+    margin-bottom: 110px;
+}
+.killer:hover{
+    border: solid 1px #C70000;
+}

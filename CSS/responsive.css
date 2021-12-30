@@ -103,8 +103,18 @@
         text-align: center;
         font-size: 25px;
     }
+    .text-area-box input{
+        font-size: 15px;
+    }
 }
 @media(max-width: 1024px){
+    .text-area-box input{
+        font-size: 12px;
+        padding: 51px 0px 46px 33px;
+    }
+    .save-box{
+        right: 20px;
+    }
     .span-title{
         font-size: 12px;
     }
@@ -181,6 +191,28 @@
     }
 }
 @media(max-width: 730px){
+    .inp-wrper{
+        max-width: 200px;
+        width: 100%;
+    }
+    .bbx{
+        height: 250px;
+    }
+    .rank-wrp{
+        height: 44px;
+        width: 44px;
+    }
+    .setting-wrapper, .access span {
+        font-size: 20px;
+    }
+    .text-area-box input{
+        font-size: 7px;
+    }
+    .save-box{
+        right: 5px;
+        width: 80px;
+        height: 24px;
+    }
     .span-title{
         font-size: 9px;
     }
@@ -235,7 +267,18 @@
         font-size: 11px;
     }
 }
+@media(max-width: 650px){
+    .rank-wrp{
+        font-size: 8px;
+    }
+    .inp-wrper{
+        font-size: 7px;
+    }
+}
 @media(max-width: 601px){
+    .partic3{
+        padding: 50px 17px 353px 17px;
+    }
     .accept{
         font-size: 11px;
         padding: 10px 14px 6px 14px;
@@ -252,6 +295,21 @@
     }
 }
 @media(max-width: 515px){
+    #search{
+        width: 250px;
+    }
+    .data span{
+        font-size: 12px;
+    }
+    .text-area-box{
+        height: 120px;
+    }
+    .setting-wrapper, .access span{
+        font-size: 14px;
+    }
+    .text-area-box input{
+        padding: 31px 0px 26px 0px;
+    }
     .family-store{
         padding: 16px 10px 14px 10px;
     }
@@ -287,6 +345,9 @@
     }
 }
 @media(max-width: 420px){
+    .list:not(:first-child){
+        margin-left: 10px;
+    }
     .buy-1000{
         width: 60px;
     }
@@ -304,5 +365,8 @@
     }
     .fill{
         font-size: 11px;
+    }
+    .navigation {
+        justify-content: center;
     }
 }

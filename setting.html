@@ -171,6 +171,24 @@
                 <button onclick="access();" id="accept_444444444" class="accept bpg-nino transition_04s">გამოსვლა</button>
             </div>
         </div>
+        <!--kill-->
+        <div class="submit-box pos-absolute none" id="submit_boxFamily">
+            <!--Money + clickevent-->
+            <div class="submit-box-text">
+                <h5 class="bpg-nino">ნამდვილად გსურთ ოჯახის დანგრევა?</h5>
+            </div>
+            <div class="Flex Justify-center">
+                <input id="input_reason" class="inp_ref bpg-nino transition_04s killer" name="Reference" 
+            placeholder="შეიყვანეთ მიზეზი">
+            </div>
+            <!--2 submit button-->
+            <div class="two_input Flex Justify-between Align-center">
+                <button onclick="kill();" id="accept_101"
+                 class="accept bpg-nino yellow_bg transition_04s" style="background-color: #C70000;
+                 color: white;">დადასტურება</button>
+                <button onclick="kill();" id="accept_202" class="accept bpg-nino transition_04s">გამოსვლა</button>
+            </div>
+        </div>
         <!--scroll-->
         <div class="section-container partic2">
             <div class="flex-box Flex Justify-between Align-center">
@@ -183,7 +201,7 @@
                 </div>
                 <div class="red-blac-wrapper Flex">
                     <button class="setting-wrapper" id="setting-js1">რანგის შეცვლა</button>
-                    <button class="setting-wrapper" id="setting-js2">ოჯახის დანგრევა</button>
+                    <button onclick="kill();" class="setting-wrapper" id="setting-js2">ოჯახის დანგრევა</button>
                 </div>
             </div>
             <!--textarea -->
@@ -206,6 +224,10 @@
         const access = () =>{
             stl();
             document.getElementById("submit_box444444").classList.toggle("none")
+        }
+        const kill = () =>{
+            document.getElementById("submit_boxFamily").classList.toggle("none");
+            stl();
         }
     </script>
 </body>
