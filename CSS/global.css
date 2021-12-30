@@ -471,6 +471,13 @@ body{
 }
 .access{
     width: 100%;
+    cursor: pointer;
+}
+.access:hover{
+    background-color: #FFCC00;
+}
+.access:hover .blkk{
+    color: #171717;
 }
 .setting-wrapper{
     max-width: 341px;
@@ -508,4 +515,42 @@ body{
 }
 .partic2{
     padding: 60px 47px 27px 47px;
+}
+.bbx{
+    overflow-y: scroll;
+    height: 370px;
+    padding-right: 10px;
+    margin-top: 26px;
+}
+.bbx::-webkit-scrollbar {
+    width: 4px;
+}
+.bbx::-webkit-scrollbar-track {
+    background: rgba(27, 27, 27, 0.671);
+}
+.bbx::-webkit-scrollbar-thumb {
+    background: #FFCC00;
+    height: 10px;
+}
+.bbx::-webkit-scrollbar-thumb:hover {
+    background: #1893cc; 
+}
+.rank-wrp{
+    height: 55px;
+    width: 55px;
+    background: #2525254d;
+    color: white;
+    font-size: 11px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.inp-wrper{
+    background: #2525254d;
+    width: 281px;
+    padding-left: 9px;
+    color: white;
+    font-size: 11px;
+}
+.rank-box:not(:first-child){
+    margin-top: 9px;
 }
