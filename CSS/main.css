@@ -49,5 +49,6 @@
     display: none;
 }
 .blur{
-    filter: blur(36px);
+    -webkit-filter: blur(36px);
+            filter: blur(36px);
 }
