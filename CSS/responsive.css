@@ -1,0 +1,308 @@
+/*HD+*/
+@media(max-width: 1400px){
+    .line-2-cont:last-child{
+        padding: 34px 0px 80px 24px;
+    }
+    .line-2-cont{
+        padding: 34px 0px 23px 23px;
+    }
+    .h2-title{
+        font-size: 20px;
+    }
+    .list-a{
+        font-size: 23px;
+    }
+    .inform-h5{
+        font-size: 23px;
+    }
+    .online-p, .components, .money{
+        font-size: 16px;
+    }
+    .line-box{
+        height: 200px;
+    }
+    .circle-box div{
+        border-radius: 50%;
+        height: 130px;
+        width: 130px;
+    }
+}
+@media(max-width: 1366px){
+    .section-container , .navigation-container{
+        max-width: 1170px;
+        width: 100%;
+    }
+    .line-box{
+        max-width: 450px;
+        width: 100%;
+    }
+}
+@media(max-width: 1280px) {
+    .span-title{
+        font-size: 17px;
+    }
+    .componentss{
+        margin-left: 80px;
+    }
+    .member-management{
+        justify-content: center;
+    }
+    .member-box:last-child{
+        margin-top: 80px;
+    }
+    .section-container , .navigation-container{
+        max-width: 950px;
+        width: 100%;
+    }
+    .list-a{
+        font-size: 18px;
+    }
+    .line-box{
+        max-width: 380px;
+        height: 175px;
+        width: 100%;
+    }
+    .btn-555{
+        padding: 10px 41px 7px 41px;
+        font-size: 12px;
+    }
+    .inform-h5{
+        font-size: 16px;
+    }
+    .online-p, .components, .money{
+        font-size: 12px;
+    }
+    .q{
+        font-size: 11px;
+    }
+    .on-line:last-child{
+        margin-left: 20px;
+    }
+    /*submit container here !!!*/
+    .submit-box{
+        padding: 17px 54px 20px 54px;
+    }
+    .accept{
+        font-size: 15px;
+        padding: 10px 19px 6px 19px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #money{
+        font-size: 17px;
+    }
+    .inp_ref{
+        padding: 18px 14px;
+    }
+    .submit-box h5{
+        font-size: 19px;
+    }
+    .add-h5{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media(max-width: 1024px){
+    .span-title{
+        font-size: 12px;
+    }
+    .buy-1000{
+        width: 70px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .slot-class, .component-span{
+        font-size: 13px;
+    }
+    .flex-box{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .parr{
+        font-size: 26px;
+        margin-bottom: 50px;
+    }
+    .data span{
+        font-size: 15px;
+    }
+    .data-inf span{
+        font-size: 12px;
+    }
+    .add{
+        padding: 60px 47px 104px 47px;
+    }
+    .member-management{
+        flex-direction: column;
+    }
+    .member-box:not(:first-child){
+        margin-top: 80px;
+    }
+    .member-management{
+        margin-top: 90px;
+    }
+    .section-container, .navigation-container{
+        max-width: 750px;
+        width: 100%;
+    }
+    .list-a{
+        font-size: 15px;
+    }
+    .circle-box div{
+        height: 80px;
+        width: 80px;
+    }
+    .inform{
+        margin-left: 25px;
+    }
+    .btn-555{
+        font-size: 10px;
+    }
+    .line-box{
+        max-width: 280px;
+    }
+    .submit-box{
+        padding: 17px 24px 20px 24px;
+    }
+    .inp_ref{
+        margin-top: 15px;
+    }
+    .two_input{
+        margin-top: 29px;
+    }
+    .accept{
+        font-size: 12px;
+    }
+}
+@media(max-width: 770px){
+    .family-store{
+        padding: 16px 20px 14px 20px;
+    }
+}
+@media(max-width: 730px){
+    .span-title{
+        font-size: 9px;
+    }
+    .slot-class, .component-span{
+        font-size: 7px;
+    }
+    .slider-icon{
+        display: flex;
+        justify-content: space-between;
+        width: 60px;
+        text-align: center;
+    }
+    .store-slider{
+        margin-left: 30px;
+    }
+    .componentss{
+        margin-left: 40px;
+    }
+    .buy-1000{
+        font-size: 11px;
+    }
+    .line-1-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+    .line-box{
+        max-width: 100%;
+    }
+    .line-box:nth-child(2){
+        margin-top: 20px;
+    }
+    .section-container, .navigation-container{
+        max-width: 550px;
+    }
+    .n{
+        display: none;
+    }
+    .absolute_out{
+        right: 20px;
+        top: 20px;
+        position: fixed;
+        z-index: 100;
+        display: flex;
+    }
+    .navigation-container{
+        max-width: 380px;
+    }
+    .list:not(:first-child){
+        margin-left: 15px;
+    }
+    .list-a{
+        font-size: 11px;
+    }
+}
+@media(max-width: 601px){
+    .accept{
+        font-size: 11px;
+        padding: 10px 14px 6px 14px;
+        width: 100px;
+    }
+    .submit-box h5{
+        font-size: 15px;
+    }
+    .inp_ref{
+        padding: 13px 9px;
+    }
+    .inp_ref::placeholder{
+        font-size: 10px;
+    }
+}
+@media(max-width: 515px){
+    .family-store{
+        padding: 16px 10px 14px 10px;
+    }
+    .store-slider{
+        margin-left: 15px;
+    }
+    .componentss{
+        margin-left: 20px;
+    }
+    .lg-out-span{
+        display: none;
+    }
+    .member_class{
+        width: 170px;
+        height: 34px;
+        padding: 13px 40px 13px 40px;
+    }
+    .member_class::placeholder{
+        font-size: 12px;
+        text-align: center;
+    }
+    .para-box p{
+        font-size: 10px;
+    }
+    .add-button1{
+        width: 110px;
+        height: 35px;
+        padding: 0;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 420px){
+    .buy-1000{
+        width: 60px;
+    }
+    .span-title{
+        font-size: 7px;
+    }
+    .section-container{
+        padding: 40px 20px;
+    }
+    .list-a{
+        font-size: 9px;
+    }
+    .inform-h5{
+        font-size: 13px;
+    }
+    .fill{
+        font-size: 11px;
+    }
+}
