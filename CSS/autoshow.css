@@ -86,27 +86,28 @@ html{
 section{
     height: 100%;
     align-items: flex-end;
-    /* padding: 0px 237px 16px 237px; */
-    padding-bottom: 16px;
+    padding: 0px 237px 16px 237px;
+    /* padding-bottom: 16px; */
 }
 .autoshow-section{
     height:280px;
-    max-width: 1445px;
+    /* max-width: 1445px;
+    width: 100%; */
     width: 100%;
     background: rgba(255, 255, 255, 0.4);
     padding: 20px 20px 18px 29px;
 }
 .autoshow-box{
     width: 216px;
-    padding: 15px 46px 19px 46px;
+    padding: 15px 46px 8px 46px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.29) 93.75%);
 }
 .scroll-cont{
     overflow-x: scroll;
-    padding-bottom: 17px;
+    padding-bottom: 9px;
 }
 .scroll-cont::-webkit-scrollbar{
-    height: 4px;
+    height: 9px;
 }
 .scroll-cont::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.5);
