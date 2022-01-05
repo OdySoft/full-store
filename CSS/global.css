@@ -258,9 +258,6 @@ body{
 .accept:nth-child(1):hover{
     background-color: white;
 }
-.accept:nth-child(2):hover{
-    background-color: #FFCC00;
-}
 #accept_20{
     margin-left: 23px;
 }
@@ -432,7 +429,6 @@ body{
     color: #171717;
     border-radius: 7px;
     font-size: 18px;
-    border: solid 2px #FFCC00;
 }
 .add-button1:hover{
     background-color: white;
@@ -475,11 +471,8 @@ body{
     border-radius: 7px;
     font-weight: bold;
     font-size: 16px;
-    border: solid 2px #FFCC00;
 }
 .buy-1000:hover{
-    -webkit-transform:scale(1.2);
-            transform:scale(1.2);
     background-color: white;
 }
 .family-store:nth-child(1){

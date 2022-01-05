@@ -1,4 +1,26 @@
 /*HD+*/
+@media(max-width: 1600px) and (max-height: 900px){
+    .regis-container h2{
+        font-size: 30px;
+    }
+    .meett{
+        font-size: 17px;
+    }
+    .regis-container{
+        width: 450px;
+    }
+    .btn-flex button{
+        width: 350px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .message{
+        height: 70px;
+    }
+    .sec{
+        padding-top: 110px;
+    }
+}
 @media(max-width: 1400px){
     .line-2-cont:last-child{
         padding: 34px 0px 80px 24px;
@@ -38,8 +60,35 @@
     }
 }
 @media(max-width: 1280px) {
+    .regis-container h2{
+        font-size: 26px;
+    }
+    .meett{
+        font-size: 15px;
+    }
+    .regis-container{
+        width: 350px;
+    }
+    .btn-flex button{
+        width: 250px;
+        height: 50px;
+        font-size: 26px;
+    }
+    .message{
+        height: 70px;
+    }
+    .sec{
+        padding-top: 110px;
+    }
     .span-title{
         font-size: 17px;
+    }
+    .forgot{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .save_info{
+        font-size: 13px;
     }
     .componentss{
         margin-left: 80px;
@@ -116,6 +165,27 @@
     }
 }
 @media(max-width: 1024px){
+    .regis-container h2{
+        font-size: 20px;
+    }
+    .regis-container{
+        width: 250px;
+    }
+    .btn-flex button{
+        width: 120px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .message{
+        height: 70px;
+    }
+    .forgot{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .save_info{
+        font-size: 13px;
+    }
     .text-area-box input{
         font-size: 12px;
         padding: 51px 0px 46px 33px;
@@ -199,6 +269,15 @@
     }
     .accept{
         font-size: 12px;
+    }
+}
+@media(max-width: 800px){
+    .mask-container, .mask-container2{
+        height: 60%;
+    }
+    .mask-img{
+        max-width: 320px;
+        width: 100%;
     }
 }
 @media(max-width: 770px){
@@ -434,5 +513,10 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+}
+@media (max-height: 700px){
+    .sec{
+        padding-top: 10px;
     }
 }

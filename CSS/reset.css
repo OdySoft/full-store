@@ -57,3 +57,7 @@ textarea{
 	overflow: hidden;
 	resize: none;
 }
+input[type="checkbox"]{
+	padding: 0;
+	margin: 0;
+}

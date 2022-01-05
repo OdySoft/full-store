@@ -1,0 +1,144 @@
+.bold{
+    font-weight: bold;
+}
+html , body{
+    height: 100%;
+}
+html{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+/*<header>*/
+.title-wrap{
+    padding-top: 42px;
+}
+.title-wrap h2{
+    font-size: 40px;
+    color:#111111;
+}
+/*yellow stick*/
+.title-wrap h2::after{
+    content: " ";
+    height: 4px;
+    width: 100%;
+    background: #FFCC00;
+    display: block;
+    margin-top: 14px;
+}
+/*log out*/
+.log-out-esc{
+    right: 0px;
+    top: 0px;
+    padding: 42px 50px 0px 0px;
+}
+.esc-wrapper , .logt-span{
+    cursor: pointer; /*click*/
+}
+.esc-wrapper{
+    height: 34px;
+    width: 34px;
+    background: #00000046;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.logt-span{
+    color:#111111;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.car-title{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(55px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 18px;
+    top: 40%;
+    left: 50px;
+    transform: translateY(-40%);
+    width: 230px;
+    height: 251px;
+    padding: 0px 27px;
+}
+.car-title h5{
+    font-size: 13px;
+    color: white;
+}
+.car-title-box:not(:first-child){
+    margin-top: 23px;
+}
+.level{
+    margin-top: 4px;
+}
+.lvl{
+    width: 33px;
+    height: 8px;
+    background: #FFFFFF;
+    opacity: 0.34;
+}
+.lvl:not(:first-child){
+    margin-left: 2px;
+}
+.lvl-control{
+    opacity: 1;
+    background-color: #FFCC00;
+}
+section{
+    height: 100%;
+    align-items: flex-end;
+    /* padding: 0px 237px 16px 237px; */
+    padding-bottom: 16px;
+}
+.autoshow-section{
+    height:280px;
+    max-width: 1445px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 20px 20px 18px 29px;
+}
+.autoshow-box{
+    width: 216px;
+    padding: 15px 46px 19px 46px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.29) 93.75%);
+}
+.scroll-cont{
+    overflow-x: scroll;
+    padding-bottom: 17px;
+}
+.scroll-cont::-webkit-scrollbar{
+    height: 4px;
+}
+.scroll-cont::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 4px;
+}
+.scroll-cont::-webkit-scrollbar-thumb{
+    background: #FFCC00;
+    border-radius: 4px;
+    width: 95px;
+}
+.autoshow-box:not(:first-child){
+    margin-left: 20px;
+}
+.autoshow-box , .autoshow-section{
+    backdrop-filter: blur(60px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 25px;
+}
+.autoshow-box h3{
+    color: #FFCC00;
+    font-size: 24px;
+}
+.autoshow-box img{
+    margin: 19px 0px 17px 0px;
+}
+.autoshow-box p{
+    font-weight: 400;
+    color: rgba(247, 247, 247, 0.7);
+    text-align: center;
+    font-size: 10px;
+    width: 165px;
+}

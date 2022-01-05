@@ -1,0 +1,156 @@
+/*background*/
+.bold{
+    font-weight: bold;
+}
+html{
+    background: url("../img/registerbg") fixed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+body , .mask-img{
+    height: 100%;
+}
+.background-image-cont{
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(27, 36, 49, 0.4) 0%, rgba(12, 17, 25, 0.4) 100%);
+    backdrop-filter: blur(20px);
+}
+.mask-container , .mask-container2{
+    height: 90%;
+}
+.mask-container{
+    align-self: flex-start;
+}
+.mask-container2{
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.sec{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.regis-container{
+   width: 600px;
+}
+.meett , .regis-container h2{
+    text-align: center;
+}
+.regis-container h2{
+    color: white;
+    font-size: 38px;
+}
+.meett{
+    width: 494px;
+    color: white;
+    font-size: 22px;
+    margin-top: 16px;
+}
+#registration{
+   color: #FFCC00; 
+}
+.message-icon2 , .message-icon , .message-icon-login , .message-icon-p{
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%)
+}
+.message-icon{
+    background-image: url("../img/inbox.png");
+    height: 21.33px;
+    width: 26.67px;
+}
+.message-icon2{
+    background-image: url("../img/block.png");
+    height: 25.33px;
+    width: 21.33px;
+}
+.message-icon3{
+    background-image: url("../img/eye.png");
+    width: 29.33px;
+    height: 21.33px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 18px;
+}
+.message-icon-login{
+    background-image: url("../img/login.png");
+    width: 26.67px;
+    height: 26.67px;
+}
+.message-icon-p{
+    background-image: url("../img/Vector.png");
+    width: 24px;
+    height: 26.67px;
+}
+.message{
+    padding-left: 64px;
+    height: 100px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 18px;
+    color: white;
+}
+.message::placeholder{
+    color: white;
+    opacity: 0.4;
+}
+#form{
+    margin-top: 41px;
+}
+.login:nth-child(2) , .login:nth-child(3), .login:nth-child(4) , .login:nth-child(5){
+    margin-top: 16px;
+}
+.save_info{
+    font-size: 17px;
+    color: #EBEBEB;
+    margin-left: 9px;
+    transform: translateY(3px)
+}
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    background: rgba(30, 41, 55, 0.12);
+    border: 1px solid #FFCC00;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.23);
+    border-radius: 9px;
+}
+.info-wrapper{
+    margin-top: 32px;
+}
+.btn-flex{
+    padding-top: 32px;
+}
+.btn-flex button{
+    height: 99px;
+    width: 535px;
+    border-radius: 10px;
+    color:#101010;
+    font-size: 38px;
+}
+.btn-flex button:hover{
+    background-color: white;
+}
+.eye-x{
+    background-image: url("../img/eyeX.png");
+}
+.forgot{
+    font-size: 20px;
+    color: #7e7e7d;
+    margin-top: 180px;
+}
+.forgot a{
+    color: white;
+    margin-left: 2px;
+    text-decoration: underline;
+}
+.sec-r{
+    padding-top: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
