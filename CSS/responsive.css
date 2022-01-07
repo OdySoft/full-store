@@ -31,6 +31,11 @@
     }
 }
 @media(max-width: 1400px){
+    .person-title{
+        width: 250px;
+        height: 51px;
+        font-size: 19px;
+    }
     .autoshow-section{
         max-width: 1000px;
     }
@@ -62,6 +67,9 @@
     }
 }
 @media(max-width: 1366px){
+    .card-title p{
+        font-size: 19px;
+    }
     .title-wrap h2{
         font-size: 30px;
     }
@@ -88,6 +96,46 @@
     }
 }
 @media(max-width: 1280px) {
+    .input-container, .button-container{
+        width: 450px;
+    }
+    .radient-box{
+        max-width: 800px;
+    }
+    .button-container button{
+        width: 200px;
+        height: 48px;
+        font-size: 17px;
+    }
+    .form-box input{
+        height: 80px;
+    }
+    .person-information-box{
+        max-width: 300px;
+    }
+    .list-container-span{
+        font-size: 15px;
+    }
+    .info-bottom{
+        margin-bottom: 25px
+    }
+    .person-title{
+        top: 98px;
+        left: 84px;
+    }
+    .person-img{
+        max-width: 200px;
+    }
+    .person-button, .role-button{
+        height: 43px;
+    }
+    .person-button{
+        font-size: 14px;
+        width: 200px;
+    }
+    .person-button:hover{
+        font-size: 15px;
+    }
     .car-title{
         padding: 0px 17px;
         width: 200px;
@@ -220,6 +268,32 @@
     }
 }
 @media(max-width: 1024px){
+    .radient-box{
+        width: 600px;
+    }
+    .form-box input{
+        height: 60px;
+    }
+    .input-container, .button-container{
+        width: 350px;
+    }
+    .button-container button{
+        width: 170px;
+        font-size: 14px;
+    }
+    .person-information-box{
+        max-width: 270px;
+    }
+    .info-bottom{
+        margin-bottom: 25px
+    }
+    .person-title{
+        width: 190px;
+        font-size: 14px;
+        justify-content: flex-end;
+        padding-right: 30px;
+        left: 68px;
+    }
     .car-title{
         width: 160px;
         height: 150px;
@@ -358,13 +432,63 @@
     .accept{
         font-size: 12px;
     }
+    .blocked-container p{
+        font-size: 17px;
+    }
 }
 @media(max-width: 950px){
+    .blocked-container p{
+        font-size: 14px;
+    }
+    .card-title p{
+        font-size: 16px;
+    }
+    .radient-box{
+        width: 450px;
+    }
+    .info-bottom{
+        margin-bottom: 15px;
+    }
+    .info-bottom img{
+        width: 25px;
+        height: 25px;
+    }
+    .person-information-box{
+        max-width: 230px;
+        padding: 25px 21px 32px 20px;
+    }
+    .list-container-span{
+        font-size: 12px;
+    }
+    .person-img{
+        max-width: 170px;
+    }
+    .person-button, .role-button{
+        height: 33px;
+    }
+    .role-button{
+        width: 36px;
+    }
+    .role-button img{
+        width: 14px;
+    }
+    .person-button{
+        font-size: 12px;
+        width: 180px;
+    }
+    .person-button:hover{
+        font-size: 13px;
+    }
     .autoshow-section{
         max-width: 640px;
     }
 }
 @media(max-width: 800px){
+    .person-title{
+        transform: scale(0.8);
+        top: 80px;
+        left: 46px;
+    }
     .mask-container, .mask-container2{
         height: 60%;
     }

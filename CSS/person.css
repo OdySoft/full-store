@@ -1,0 +1,208 @@
+html{
+    background-image: url("../img/person.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+html , body , section ,.person-box , .bg-div{
+    height: 100%;
+}
+body{
+    background: rgba(0, 0, 0, 0.32);
+    /* Note: backdrop-filter has minimal browser support */
+    backdrop-filter: blur(43px);
+}
+.person-img{
+    max-width: 318px;
+}
+.person-img img{
+    z-index: 200;
+}
+html ,.person-img img , .person-img , 
+.person-information-box , .radient-box , 
+.card , .bg-div , .img-card img{
+    width: 100%;
+}
+.person-box{
+    justify-content: space-around;
+}
+.create-person{
+    margin-top: 30px;
+}
+.person-button{
+    color: #111111;
+    font-weight: bold;
+    font-size: 17px;
+    width: 269px;
+     -webkit-border-top-left-radius: 8px;
+     -webkit-border-bottom-left-radius: 8px;
+     -moz-border-radius-topleft: 8px;
+     -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.person-button , .role-button{
+    height: 54px;
+}
+.person-button:hover{
+    font-size: 18px;
+    background-color: white;
+}
+.role-button{
+    width: 56px;
+    background: #111111;
+     -webkit-border-top-right-radius: 8px;
+     -webkit-border-bottom-right-radius: 8px;
+     -moz-border-radius-topright: 8px;
+     -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+/*page 2*/
+.person-title{
+    width: 293px;
+    height: 62px;
+    background-color: rgba(255, 255, 255, 0.274);
+    top: 164px;
+    left: 161px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+/*page3*/
+.person-information-box{
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(32px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+    max-width: 341px;
+    padding: 35px 21px 32px 20px;
+}
+.info-bottom{
+    margin-bottom: 35px;
+}
+.list-container-span{
+    font-size: 17px;
+    font-weight: bold;
+}
+.list-container .list-container-span:first-child{
+    color: white;
+}
+.list-container .list-container-span:last-child{
+    color: #FFCC00;
+}
+ul li:not(:first-child){
+    margin-top: 13px;
+}
+/*page4*/
+.radient-box{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(17, 29, 46, 0.96) 0%, rgba(4, 6, 13, 0.96) 100%);
+    transform: rotate(16.35deg);
+    max-width: 932px;
+    height: 144%;
+}
+.form-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.input-container , .button-container{
+    width: 600px;
+}
+.form-box input{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 18px;
+    height: 100px;
+    width: 100%;
+    color: white;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#person-surname{
+    margin-top: 13px;
+}
+.button-container button{
+    height: 62px;
+    width: 293px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button-container{
+    margin-top: 60px;
+}
+.button-container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.button-container button:nth-child(1){
+    float: left;
+    color: #111111;
+}
+.button-container button:nth-child(2){
+    float: right;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+}
+/*page5*/
+.card{
+    max-width: 420.2px;
+    transition: all 0.2s;
+}
+.img-card img , .bg-div{
+    border-radius: 31px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.bg-div{
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(4, 6, 13, 0) 0%, rgba(4, 6, 13, 0.96) 100%);
+}
+.card:nth-child(2){
+    margin: 0px 26px;
+}
+.card:nth-child(3){
+    margin-right: 27px;
+}
+.card:first-child{
+    margin-left: 54px;
+}
+.card:last-child{
+    margin-right: 54px;
+}
+.person-bx{
+    justify-content: center;
+}
+.card-title{
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.card-title p{
+    font-size: 24px;
+    color: #FFCC00;
+    font-weight: bold;
+    text-align: center;
+}
+/*blocked*/
+.bg-div2{
+    background: rgba(4, 6, 13, 0.9);
+}
+.card-blocked{
+    top: 9%;
+}
+.blocked-container img{
+    margin-top: 50px;
+}
+.blocked-container p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 48px;
+}
