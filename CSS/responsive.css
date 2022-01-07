@@ -21,7 +21,19 @@
         padding-top: 110px;
     }
 }
+@media(max-width: 1600px){
+    .car-title{
+        top: 30%;
+        transform: translateY(-30%);
+    }
+    .autoshow-section{
+        max-width: 1200px;
+    }
+}
 @media(max-width: 1400px){
+    .autoshow-section{
+        max-width: 1000px;
+    }
     .line-2-cont:last-child{
         padding: 34px 0px 80px 24px;
     }
@@ -50,6 +62,22 @@
     }
 }
 @media(max-width: 1366px){
+    .title-wrap h2{
+        font-size: 30px;
+    }
+    .logt-span{
+        font-size: 13px;
+    }
+    .autoshow-box h3{
+        font-size: 19px;
+    }
+    .autoshow-section{
+        height: 240px;
+    }
+    .autoshow-box img{
+        margin: 13px 0px 10px 0px;
+        height: 90px;
+    }
     .section-container , .navigation-container{
         max-width: 1170px;
         width: 100%;
@@ -60,6 +88,33 @@
     }
 }
 @media(max-width: 1280px) {
+    .car-title{
+        padding: 0px 17px;
+        width: 200px;
+        height: 220px;
+    }
+    .lvl{
+        height: 7px;
+        width: 29px;
+    }
+    .scroll-cont{
+        padding: 20px 0px 18px 0px;
+    }
+    .autoshow-section{
+        padding: 0px 20px 0px 29px;
+        height: 205px;
+    }
+    .autoshow-box{
+        padding: 15px 36px 8px 36px;
+        width: 160px;
+    }
+    .autoshow-box img{
+        height: 50px;
+    }
+    .autoshow-box p{
+        font-size: 8px;
+        width: 130px;
+    }
     .regis-container h2{
         font-size: 26px;
     }
@@ -165,7 +220,40 @@
     }
 }
 @media(max-width: 1024px){
-    .regis-container h2{
+    .car-title{
+        width: 160px;
+        height: 150px;
+    }
+    .car-title-box:not(:first-child){
+        margin-top: 15px;
+    }
+    .car-title h5{
+        font-size: 9px;
+    }
+    .lvl{
+        height: 4px;
+        width: 20px;
+    }
+    .scroll-cont{
+        padding: 10px 0px 18px 0px;
+    }
+    .autoshow-section{
+        max-width: 800px;
+        height: 185px;
+    }
+    .autoshow-box h3{
+        font-size: 15px;
+    }
+    .scroll-cont::-webkit-scrollbar {
+        height: 4px;
+    }
+    .autoshow-box{
+        transform: scale(0.9);
+    }
+    .logt-span{
+        display: none;
+    }
+    .regis-container h2 , .title-wrap h2{
         font-size: 20px;
     }
     .regis-container{
@@ -269,6 +357,11 @@
     }
     .accept{
         font-size: 12px;
+    }
+}
+@media(max-width: 950px){
+    .autoshow-section{
+        max-width: 640px;
     }
 }
 @media(max-width: 800px){

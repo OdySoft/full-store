@@ -5,6 +5,12 @@ html , body{
     height: 100%;
 }
 html{
+    background: url("../img/gta5.jpg") fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+body{
     background-color: rgba(0, 0, 0, 0.658);
 }
 /*<header>*/
@@ -84,16 +90,18 @@ html{
     background-color: #FFCC00;
 }
 section{
-    height: 100%;
-    align-items: flex-end;
-    padding: 0px 237px 16px 237px;
-    /* padding-bottom: 16px; */
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    /* padding: 0px 237px 16px 237px; */
+    transform: translateX(-50%);
+    padding-bottom: 16px;
 }
 .autoshow-section{
+    margin: 0 auto;
     height:280px;
-    /* max-width: 1445px;
-    width: 100%; */
-    width: 100%;
+    max-width: 1445px;
+    width: 100%; 
     background: rgba(255, 255, 255, 0.4);
     padding: 20px 20px 18px 29px;
 }
@@ -101,6 +109,10 @@ section{
     width: 216px;
     padding: 15px 46px 8px 46px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.29) 93.75%);
+    transition: all 0.3s;
+}
+.autoshow-box:hover{
+    transform: scale(0.9);
 }
 .scroll-cont{
     overflow-x: scroll;
