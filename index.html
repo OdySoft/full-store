@@ -37,32 +37,32 @@
                 <ul class="nav-ul Flex">
                     <!--1-->
                     <li class="list list-hover" id="list-1">
-                        <a href="index.html" class="list-a bpg-nino" style="opacity: 1;">მთავარი</a>
-                        <div class="hover-color hc1" style="opacity: 1;"></div>
+                        <a href="javascript:void(0)" class="list-a bpg-nino opacity-1" id="list-1-a">მთავარი</a>
+                        <div class="hover-color hc1 opacity-1"></div>
                     </li>
                     <!--2-->
                     <li class="list" id="list-2">
-                        <a href="participants.html" class="list-a bpg-nino">მონაწილეები</a>
+                        <a href="javascript:void(0)" class="list-a bpg-nino" id="list-2-a">მონაწილეები</a>
                         <div class="hover-color hc2"></div>
                     </li>
                     <!--3-->
                     <li class="list" id="list-3">
-                        <a href="add.html" class="list-a bpg-nino">მიღება</a>
+                        <a href="javascript:void(0)" class="list-a bpg-nino">მიღება</a>
                         <div class="hover-color hc3"></div>
                     </li>
                     <!--4-->
                     <li class="list" id="list-4">
-                        <a href="room.html" class="list-a bpg-nino">საწყობი</a>
+                        <a href="javascript:void(0)" class="list-a bpg-nino">საწყობი</a>
                         <div class="hover-color hc4"></div>
                     </li>
                     <!--5-->
                     <li class="list" id="list-5">
-                        <a href="store.html" class="list-a bpg-nino">მარკეტი</a>
+                        <a href="javascript:void(0)" class="list-a bpg-nino">მარკეტი</a>
                         <div class="hover-color hc5"></div>
                     </li>
                     <!--6-->
                     <li class="list" id="list-6">
-                        <a href="setting.html" class="list-a bpg-nino">პარამეტრები</a>
+                        <a href="javascript:void(0)" class="list-a bpg-nino">პარამეტრები</a>
                         <div class="hover-color hc6"></div>
                     </li>
                 </ul>
@@ -78,7 +78,7 @@
         </div>
     </header>
     <!--Container-->
-    <section class="section pos-relative">
+    <section class="section pos-relative" id="section-1">
         <div class="submit-box pos-absolute none" id="submit_box">
             <!--Money + clickevent-->
             <div class="submit-box-text">
@@ -182,24 +182,414 @@
             </div>
         </div>
     </section>
-    <!--აქ ცოტა ჯავასკრიპტი დავამატე , შენ წაშალე და მიაბი შესამაბისი ფუნქციონალი
-    ჯავასკრიპტი როარ გამომეყენებინა კოშმარი გამოდიოდა იმდენი ფაილი უნდა შემექმნა ცალ ცალკე :DD 
-    მოკლედ შენიცი <3-->
-    <script>
-        const style = () =>{
-            const container = document.querySelector(".section-container");
-            container.classList.toggle("blur");
-        }
-        const click_event = () =>{
-            style();
-            const accept = document.getElementById('submit_box')
-            accept.classList.toggle("none")
-        }
-        const add = () =>{
-            style();
-            const accept = document.getElementById('submit_box_2')
-            accept.classList.toggle("none")
-        }
-    </script>
+    <!--Members section 2-->
+    <section class="section pos-relative none" id="section-2">
+        <div class="section-container partic partic3">
+            <div class="flex-box Flex Justify-between Align-center">
+                <h5 class="inform-h5 bpg-nino parr">ოჯახის წევრთა სია</h5>
+                <div class="input-container pos-relative">
+                    <form action="#">
+                        <input id="search" class="search bpg-nino transition_04s" name="search" placeholder="მოძებნე ოჯახის წევრი">
+                    </form>
+                    <div class="svg-cont pos-absolute" id="click-search">
+                        <img src="img/search.svg" alt="search">
+                    </div>
+                </div>
+            </div>
+            <!--table-->
+            <div class="table Flex Justify-between">
+                <!--ID-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>ID</span>
+                </div>
+                <!--Name-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>სახელი</span>
+                </div>
+                <!--Rank-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>რანკი</span>
+                </div>
+                <!--Rank-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>წოდება</span>
+                </div>
+                <!--Status-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>სტატუსი</span>
+                </div>
+            </div>
+             <!--table body 1-->
+             <div class="t-body tb14 Flex Justify-between">
+                 <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                     <span>150</span>
+                 </div>
+                 <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>saxeli_gvari</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>10</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>10</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <label class="switch">
+                        <input type="checkbox" id="active-1">
+                           <div class="slider"></div>
+                    </label>
+                </div>
+            </div>
+            <!--table body 2-->
+            <div class="t-body tb5 Flex Justify-between">
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>150</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>saxeli_gvari</span>
+               </div>
+               <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>10</span>
+               </div>
+               <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>10</span>
+               </div>
+               <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <label class="switch">
+                    <input type="checkbox" id="active-2">
+                       <div class="slider"></div>
+                   </label>
+               </div>
+           </div>
+        </div>
+    </section>
+    <!--Section 3-->
+    <section class="section pos-relative none" id="section-3">
+        <div class="submit-box pos-absolute none" id="submit_box3333">
+            <!--Money + clickevent-->
+            <div class="submit-box-text">
+                <h5 class="bpg-nino">შეიყვანეთ წოდება</h5>
+            </div>
+            <input id="input_1" class="inp_ref bpg-nino transition_04s" name="Reference" 
+            placeholder="წოდება">
+            <!--2 submit button-->
+            <div class="two_input Flex Justify-between Align-center">
+                <button onclick="clickevent();" id="accept_10" class="accept bpg-nino yellow_bg transition_04s">დადასტურება</button>
+                <button onclick="clickevent();" id="accept_20" class="accept bpg-nino transition_04s">გამოსვლა</button>
+            </div>
+        </div>
+        <div class="section-container add">
+            <h5 class="inform-h5 bpg-nino add-h5">ოჯახის წევრების მართვა</h5>
+            <!--Line-->
+            <div class="member-management Flex Justify-between wrap">
+                <!--1-->
+                <div class="member-box Flex Flex-column Align-center">
+                    <h5 class="inform-h5 bpg-nino">მოწვევა</h5>
+                    <input type="text" id="member-id" class="member_class bpg-nino" placeholder="მოთამაშის ID" >
+                    <div class="para-box tx-c bpg-nino">
+                        <p style="max-width: 340px;  width: 100%;">
+                            მოთამაშე რომელსაც თქვენ იწვევთ,
+                            არ უნდა იყოს ფრაქციისან
+                            სხვა ოჯახის ან ორგანიზაციის წევრი.და ასევე უნდა 
+                            იყოსთქვეთან არაუმეტეს 3 მეტრისა
+                        </p>
+                    </div>
+                    <button onclick="clickevent();" id="add-button_1" 
+                    class="add-button1 bpg-nino yellow_bg transition_04s" type="button">
+                        მიღება
+                    </button>
+                </div>
+                <!--2-->
+                <div class="member-box Flex Flex-column Align-center">
+                    <h5 class="inform-h5 bpg-nino">წოდების შეცვლა</h5>
+                    <input type="text" id="member-id" class="member_class bpg-nino" placeholder="მოთამაშის ID" >
+                    <div class="para-box tx-c bpg-nino">
+                        <p style="max-width: 328px;  width: 100%;">
+                            შეიყვანით იმ ოჯახის წევრის ID რომელზეც გსურთ წოდების შეცვლა
+                        </p>
+                    </div>
+                    <button onclick="clickevent();"
+                     id="add-button_2" class="add-button1 bpg-nino yellow_bg transition_04s" type="button">
+                        მიღება
+                    </button>
+                </div>
+                <!--3-->
+                <div class="member-box Flex Flex-column Align-center">
+                    <h5 class="inform-h5 bpg-nino">გაგდება</h5>
+                    <input type="text" id="member-id" class="member_class bpg-nino" placeholder="მოთამაშის ID" >
+                    <div class="para-box tx-c bpg-nino">
+                        <p style="max-width: 318px; width: 100%;">
+                            შეიყვანით იმ ოჯახის წევრის ID რომლის გაგდებაც გსურთ
+                        </p>
+                    </div>
+                    <button onclick="clickevent();"
+                     id="add-button_3" class="add-button1 bpg-nino yellow_bg transition_04s" type="button">
+                        მიღება
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Room Section-->
+    <section class="section pos-relative none" id="section-4">
+        <div class="section-container partic partic3">
+            <div class="flex-box Flex Justify-between Align-center">
+                <h5 class="inform-h5 bpg-nino parr">საწყობის აღრიცხვა</h5>
+            </div>
+             <!--table-->
+             <div class="table Flex Justify-between">
+                <!--date-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>თარიღი</span>
+                </div>
+                <!--time-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>დრო</span>
+                </div>
+                <!--name-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>სახელი</span>
+                </div>
+                <!--#-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>მოქმედება</span>
+                </div>
+                <!--#-->
+                <div class="data Flex Justify-center Align-center bpg-nino">
+                    <span>ნივთი</span>
+                </div>
+            </div>
+             <!--table body 1-->
+             <div class="t-body tb14 Flex Justify-between">
+                 <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                     <span>26.12.2021</span>
+                 </div>
+                 <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>12:00</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>Saxel_Gvari</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>ამოიღო</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>Assault Riffle</span>
+                </div>
+            </div>
+            <!--table body 2-->
+            <div class="t-body tb5 Flex Justify-between">
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                    <span>25.12.2021</span>
+                </div>
+                <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>14:42</span>
+               </div>
+               <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>Gvari_Saxeli</span>
+               </div>
+               <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>ჩადო</span>
+               </div>
+               <div class="data-inf Flex Justify-center Align-center bpg-nino">
+                   <span>60x SMG Ammo</span>
+               </div>
+           </div>
+        </div>
+    </section>
+    <!--Store Section-->
+    <section class="section pos-relative none" id="section-5">
+        <div class="section-container partic partic3">
+            <div class="flex-box Flex Justify-between Align-center">
+                <h5 class="inform-h5 bpg-nino parr">ოჯახის მარკეტი</h5>
+            </div>
+            <!--Family Store 1-->
+            <div class="family-store Flex Justify-between Align-center" style="margin-top: 55px;">
+                <div class="store-title Flex Align-center">
+                    <span class="bpg-nino span-title" style="opacity: 0.6;">გააფართოვე საწყობი</span>
+                    <div class="store-slider Flex Align-center">
+                        <!--Slider-->
+                        <div class="slider-icon" id="slider-icon-left">
+                            <img class="transition_04s" src="img/left-arrow.png" style="margin-right: 7px;" alt="arrow">
+                            <span id="slot-1" class="bpg-nino slot-class">20 სლოტი</span>
+                            <img class="transition_04s" src="img/right-arrow.png" style="margin-left: 7px;" alt="arrow">
+                        </div>
+                    </div>
+                    <!--Component-->
+                    <div class="componentss Flex Align-center">
+                        <span class="bpg-nino component-span" id="component-1">3000 კომპონენტი</span>
+                    </div>
+                </div>
+                <!--Button-->
+                <button id="button-buy-01"
+                 class="buy-1000 transition_04s Flex Align-center Justify-center bpg-nino yellow_bg">
+                    შესყიდვა
+                </button>
+            </div>
+            <!--line two-->
+            <div class="family-store Flex Justify-between Align-center" style="margin-top: 15px;">
+                <div class="store-title Flex Align-center">
+                    <span class="bpg-nino span-title" style="opacity: 0.6;">გააფართოვე ფარეხი</span>
+                    <div class="store-slider Flex Align-center">
+                        <!--Slider-->
+                        <div class="slider-icon" id="slider-icon-left" style="margin-left: 7px;">
+                            <img class="transition_04s" src="img/left-arrow.png" style="margin-right: 7px;" alt="arrow">
+                            <span id="slot-1" class="bpg-nino slot-class">20 სლოტი</span>
+                            <img class="transition_04s" src="img/right-arrow.png" style="margin-left: 7px;" alt="arrow">
+                        </div>
+                    </div>
+                    <!--Component-->
+                    <div class="componentss Flex Align-center">
+                        <span class="bpg-nino component-span" id="component-1">3000 კომპონენტი</span>
+                    </div>
+                </div>
+                <!--Button-->
+                <button id="button-buy"
+                 class="buy-1000 transition_04s Flex Align-center Justify-center bpg-nino yellow_bg">
+                    შესყიდვა
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--Setting Section-->
+    <section class="section pos-relative none" id="section-6">
+        <div class="submit-box pos-absolute none" id="submit_box444444">
+            <!--scroll-->
+            <div class="submit-box-text">
+                <h5 class="bpg-nino">შეცვალეთ წოდების სახელები</h5>
+            </div>
+             <div class="bbx">
+                 <div class="rank-box Flex">
+                     <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                     <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                 </div>
+                 <!--2-->
+                 <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 2</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--3-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 3</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--4-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--5-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--6-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--7-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--8-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--9-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--10-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--11-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                 <!--12-->
+                 <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--13-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--14-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--15-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+                <!--16-->
+                <div class="rank-box Flex">
+                    <div class="rank-wrp bpg-nino Flex Justify-center Align-center">რანკი 1</div>
+                    <input id="rank-wrp1" type="text" class="inp-wrper bpg-nino" placeholder="შეიყვანეთ წოდების სახელი">
+                </div>
+             </div>
+            <!--2 submit button-->
+            <div class="two_input Flex Justify-between Align-center">
+                <button onclick="access();" id="accept_4444444" class="accept bpg-nino yellow_bg transition_04s">დადასტურება</button>
+                <button onclick="access();" id="accept_444444444" class="accept bpg-nino transition_04s">გამოსვლა</button>
+            </div>
+        </div>
+        <!--kill-->
+        <div class="submit-box pos-absolute none" id="submit_boxFamily">
+            <!--Money + clickevent-->
+            <div class="submit-box-text">
+                <h5 class="bpg-nino">ნამდვილად გსურთ ოჯახის დანგრევა?</h5>
+            </div>
+            <div class="Flex Justify-center">
+                <input id="input_reason" class="inp_ref bpg-nino transition_04s killer" name="Reference" 
+            placeholder="შეიყვანეთ მიზეზი">
+            </div>
+            <!--2 submit button-->
+            <div class="two_input Flex Justify-between Align-center">
+                <button onclick="kill();" id="accept_101"
+                 class="accept bpg-nino yellow_bg transition_04s" style="background-color: #C70000;
+                 color: white;">დადასტურება</button>
+                <button onclick="kill();" id="accept_202" class="accept bpg-nino transition_04s">გამოსვლა</button>
+            </div>
+        </div>
+        <!--scroll-->
+        <div class="section-container partic2">
+            <div class="flex-box Flex Justify-between Align-center">
+                <h5 class="inform-h5 bpg-nino parr">ოჯახის პარამეტრები</h5>
+            </div>
+            <!--Setting-->
+            <div class="setting-container">
+                <div onclick="access();" class="access Flex Justify-center Align-center transition_04s" id="access-js">
+                    <span class="bpg-nino blkk transition_04s">ტრანსპორტზე წვდომის კონფიგურაცია</span>
+                </div>
+                <div class="red-blac-wrapper Flex">
+                    <button class="setting-wrapper" id="setting-js1">რანგის შეცვლა</button>
+                    <button onclick="kill();" class="setting-wrapper" id="setting-js2">ოჯახის დანგრევა</button>
+                </div>
+            </div>
+            <!--textarea -->
+            <div class="text-area-box pos-relative">
+                <input name="block-1" class="textarea bpg-nino" placeholder="გამოიყენეთ ეს ბლოკი თქვენი ოჯახის ბიოგრაფიის და მისი ისტორიის დასაწერად">
+                <button class="save-box pos-absolute bpg-nino transition_04s" type="button">შენახვა</button>
+            </div>
+            <!--2-->
+            <div class="text-area-box pos-relative">
+                <input name="block-2" class="textarea bpg-nino" placeholder="თქვენ შეგიძლიათ გამოიტენოთ ეს ბლოკი, რომ დატოვოთ ინფორმაცია დღეისთვის">
+                <button class="save-box pos-absolute bpg-nino transition_04s">შენახვა</button>
+            </div>
+        </div>
+    </section>
+    <script src="JavaScript/index.js"></script>
 </body>
 </html>
