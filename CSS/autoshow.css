@@ -112,7 +112,7 @@ section{
     transition: all 0.3s;
 }
 .autoshow-box:hover{
-    transform: scale(0.9);
+    transform: scale(1.04);
 }
 .scroll-cont{
     overflow-x: scroll;
@@ -147,11 +147,19 @@ border-radius: 4px;
 }
 .autoshow-box img{
     margin: 19px 0px 17px 0px;
+    height: 110px;
 }
-.autoshow-box p{
+.p{
     font-weight: 400;
     color: rgba(247, 247, 247, 0.7);
     text-align: center;
     font-size: 10px;
     width: 165px;
+}
+.color-yellow{
+    color: #FFCC00;
+    font-size: 23px;
+}
+.arrow-block{
+    top: -20%;
 }

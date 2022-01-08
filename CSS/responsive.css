@@ -157,11 +157,14 @@
         width: 160px;
     }
     .autoshow-box img{
-        height: 50px;
+        height: 60px;
     }
-    .autoshow-box p{
+    .p{
         font-size: 8px;
         width: 130px;
+    }
+    .color-yellow{
+        font-size: 18px;
     }
     .regis-container h2{
         font-size: 26px;
