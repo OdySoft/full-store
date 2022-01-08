@@ -51,7 +51,7 @@ body , .mask-img{
     font-size: 22px;
     margin-top: 16px;
 }
-#registration{
+#registration , #registration2{
    color: #FFCC00; 
 }
 .message-icon2 , .message-icon , .message-icon-login , .message-icon-p{
@@ -99,7 +99,7 @@ body , .mask-img{
     color: white;
     opacity: 0.4;
 }
-#form{
+#form , #form-reg{
     margin-top: 41px;
 }
 .login:nth-child(2) , .login:nth-child(3), .login:nth-child(4) , .login:nth-child(5){
@@ -112,12 +112,22 @@ body , .mask-img{
     transform: translateY(3px)
 }
 input[type="checkbox"]{
-    width: 25px;
+    appearance: none;
     height: 25px;
-    background: rgba(30, 41, 55, 0.12);
-    border: 1px solid #FFCC00;
-    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.23);
+    width: 25px;
     border-radius: 9px;
+    background: #1E2937;
+border: 1px solid #FFCC00;
+box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.23);
+}
+input[type="checkbox"]:checked:after{
+    content: " ";
+    height: 21px;
+    width: 21px;
+    border-radius: 9px;
+    background-color: #FFCC00;
+    display: block;
+    margin: 1px;
 }
 .info-wrapper{
     margin-top: 32px;

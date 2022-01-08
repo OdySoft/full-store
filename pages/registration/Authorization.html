@@ -29,12 +29,12 @@
         </div>
     </div>
     <!--Reg-->
-    <section class="pos-absolute sec">
+    <section class="pos-absolute sec" id="author-section">
         <div class="regis-container">
             <h2 class="bpg-nino bold">ავტორიზაცია</h2>
             <div class="Flex Justify-center">
                 <p class="meett bpg-nino">
-                    მოხარული ვართ, რომ გხედავთ, შედით ანგარიშზე ან გაიარეთ <a id="registration" href="registration.html">რეგისტრაცია</a>
+                    მოხარული ვართ, რომ გხედავთ, შედით ანგარიშზე ან გაიარეთ <a id="registration" href="#">რეგისტრაცია</a>
                 </p>
             </div>
             <!--Form-->
@@ -46,15 +46,15 @@
                 <!--Pass-->
                 <div class="login pos-relative">
                     <div class="message-icon2 pos-absolute"></div>
-                    <div class="message-icon3 pos-absolute" onclick="password();"></div>
+                    <div class="message-icon3 pos-absolute" onclick="password2();"></div>
                     <input class="message bpg-nino" type="password" id="pass" name="passwordInput" placeholder="შეიყვანეთ პაროლი">
                 </div>
                 <div class="Flex Justify-center Align-center info-wrapper">
-                    <input type="checkbox" name="radio" id="save-info1">
+                    <input type="checkbox" name="radio" id="save-info1-authoriz">
                     <span class="bpg-nino save_info">დაიმახსოვრე ანგარიშის მონაცემები</span>
                 </div>
                 <div class="btn-flex Flex Justify-center">
-                    <button type="submit" id="regstr-button" class="bpg-nino Flex Justify-center Align-center bold yellow_bg transition_04s"
+                    <button type="submit" id="authoriz-button" class="bpg-nino Flex Justify-center Align-center bold yellow_bg transition_04s"
                     >შესვლა</button>
                 </div>
                 <div class="Flex Justify-center">
@@ -65,8 +65,67 @@
             </form>
         </div>
     </section>
+    <!--Registration Section-->
+    <section class="pos-absolute sec-r none" id="reg-section">
+        <div class="regis-container">
+            <h2 class="bpg-nino bold">რეგისტრაცია</h2>
+            <div class="Flex Justify-center">
+                <p class="meett bpg-nino">
+                    უკვე რეგისტრირებული ხართ? გაიარეთ <a id="registration2" href="#">ავტორიზაცია</a>
+                </p>
+            </div>
+            <!--Form-->
+            <form action="" id="form-reg">
+                <div class="login pos-relative">
+                    <div class="message-icon pos-absolute"></div>
+                    <input class="message bpg-nino" type="email" id="email-reg" name="emailInput" placeholder="შეიყვანეთ ელ.ფოსტა">
+                </div>
+                <!--Login-->
+                <div class="login pos-relative">
+                    <div class="message-icon-login pos-absolute"></div>
+                    <input class="message bpg-nino" type="text" id="loginn-inp" name="loginlInput" placeholder="შეიყვანეთ ლოგინი">
+                </div>
+                <!--Pass-->
+                <div class="login pos-relative">
+                    <div class="message-icon2 pos-absolute"></div>
+                    <div class="message-icon3 pos-absolute ps" onclick="password();"></div>
+                    <input class="message bpg-nino" type="password" id="pass_02-reg" name="passwordInput" placeholder="შეიყვანეთ პაროლი">
+                </div>
+                <div class="login pos-relative">
+                    <div class="message-icon2 pos-absolute"></div>
+                    <div class="message-icon3 pos-absolute ps" onclick="password();"></div>
+                    <input class="message bpg-nino" type="password" id="pass-reg" name="passwordInput" placeholder="გაიმეორეთ პაროლი">
+                </div>
+                <!--P-Code-->
+                <div class="login pos-relative">
+                    <div class="message-icon-p pos-absolute"></div>
+                    <input class="message bpg-nino" type="text" id="p-code" name="pcodelInput" placeholder="პრომოკოდი (შეგიძლიათ გამოტოვოთ)">
+                </div>
+                <div class="Flex Justify-center Align-center info-wrapper">
+                    <input type="checkbox" name="radio" id="save-info1">
+                    <span class="bpg-nino save_info">ვეთანხმები წესებს და პირობებს</span>
+                </div>
+                <div class="btn-flex Flex Justify-center">
+                    <button type="submit" id="regstr-button" class="bpg-nino Flex Justify-center Align-center bold yellow_bg transition_04s"
+                    >რეგისტრაცია</button>
+                </div>
+            </form>
+        </div>
+    </section> 
     <script>
-        const password = () =>{
+        const one = document.getElementById("registration");
+        const two = document.getElementById("registration2")
+        const section1 = document.getElementById("author-section");
+        const section2 = document.getElementById("reg-section");
+        one.addEventListener("click" , () =>{
+            section1.classList.add("none")
+            section2.classList.remove("none")
+        })
+        two.addEventListener("click" , () =>{
+            section1.classList.remove("none")
+            section2.classList.add("none")
+        })
+         const password2 = () =>{
             const input_password = document.getElementById("pass")
             if(input_password.type === "password"){
                 input_password.type = "text"
@@ -76,6 +135,23 @@
             const show = document.querySelector(".message-icon3");
             show.classList.toggle("eye-x")
         }
+
+        const password = () =>{
+            const input_password = document.querySelectorAll("input[name = 'passwordInput']")
+            input_password.forEach(inputs =>{
+
+                if(inputs.type === "password"){
+                inputs.type = "text"
+                } else{ 
+                    inputs.type = "password"
+                }
+            })
+            const show = document.querySelectorAll(".ps");
+            show.forEach(item =>{
+                item.classList.toggle("eye-x")
+            })
+        }
+    
     </script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 const style = () =>{
-    const container = document.querySelector(".section-container");
-    container.classList.toggle("blur");
+    const container = document.querySelectorAll(".section-container");
+    container.forEach(items =>{
+        items.classList.toggle("blur");
+    })
 }
 const click_event = () =>{
     style();
