@@ -8,7 +8,7 @@ html , body{
     height: 100%;
 }
 html{
-     background: url("../img/gta-background-2.jpg") fixed;
+    background: url("../img/gta-background-2.jpg") fixed;
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -250,4 +250,50 @@ body{
 .accept:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+.data:not(:first-child){
+    margin-left: 8px;
+}
+.data-inf{
+    max-width: 242px;
+    width: 100%;
+}
+.data {
+    background: rgba(0, 0, 0, 0.56);
+    backdrop-filter: blur(50px);
+    padding: 12px 0px 8px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    max-width: 242px;
+    width: 100%;
+}
+.bx2{
+    max-width: 1281px;
+    width: 100%;
+}
+.t-body {
+    padding: 8px 0px 6px 0px;
+    background: rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(50px);
+/* Note: backdrop-filter has minimal browser support */
+    backdrop-filter: blur(50px);
+    border-radius: 8px;
+}
+.tb14 {
+    margin-top: 14px;
+}
+.data span {
+    color: white;
+    opacity: 0.6;
+    font-size: 22px;
+}
+.data-inf span {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.tb5 {
+    margin-top: 5px;
 }
