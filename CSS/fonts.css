@@ -11,3 +11,17 @@
 .bpg-nino{
     font-family: 'BPG Nino Mtavruli';
 }
+@font-face{
+    font-family: "Rafine-medium";
+    src: url("../fonts/Rafine\ Medium.otf");
+}
+.rafine{
+    font-family: "Rafine-medium";
+}
+@font-face{
+    font-family: "Rafine-bold";
+    src: url("../fonts/Rafine\ Extrabold.otf");
+}
+.rafine-b{
+    font-family: "Rafine-bold";
+}

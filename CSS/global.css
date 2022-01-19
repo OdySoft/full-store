@@ -602,3 +602,167 @@ body{
 .opacity-1{
     opacity: 1;
 }
+/*starbyte page*/
+.bold{
+    font-weight: bold;
+}
+.home_html{
+    background-image: url("../img/image\ 1.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.home_body{
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(239.45deg, #080B17 15.83%, rgba(8, 11, 23, 0.97) 100%);
+}
+.home_header_container{
+    padding: 37px 8% 0px 8%;
+}
+.deg-block{
+    top: -61px;
+    right: 0;
+    width: 1516.32px;
+    height: 1521.96px;
+    transform: rotate(33.88deg) translateX(63%) translateY(-20%);
+}
+.star_byte_title{
+    color: #FFCC00;
+    text-transform: uppercase;
+}
+.star_byte_title h2{
+    font-size: 26.16px;
+}
+.star_byte_title h3{
+    font-size: 24.64px;
+    font-weight: 300;
+}
+.home_navigation{
+    padding-top: 20px;
+}
+.home_list:not(:first-child){
+    margin-left: 32px;
+}
+.home_list:not(:first-child) .polygon{
+    opacity: 0;
+}
+.home_list:nth-child(1):hover .polygon , .home_list:nth-child(1):hover a ,
+.home_list:nth-child(2):hover .polygon , .home_list:nth-child(2):hover a ,
+.home_list:nth-child(3):hover .polygon , .home_list:nth-child(3):hover a ,
+.home_list:nth-child(4):hover .polygon , .home_list:nth-child(4):hover a ,
+.home_list:nth-child(5):hover .polygon , .home_list:nth-child(5):hover a{
+    opacity: 1;
+}
+
+.home_list a , .home_button{
+    font-size: 22.64px;
+    color: white;
+}
+.op5{
+    opacity: 0.5;
+}
+.polygon{
+    margin-top: 3px;
+}
+.home_button{
+    cursor: pointer;
+    color: #080B17;
+    max-width: 191px;
+    width: 100%;
+    height: 45px;
+    font-style: normal;
+}
+.starbyte_section{
+    padding-left: 8%;
+}
+.flex_icon{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.starbyte_container h1{
+    font-size: 70px;
+    width: 899px;
+    line-height: 80.66px;
+    color: white;
+    margin-top: 205px;
+    margin-bottom: 87px;
+}
+.starbyte_container .p-t{
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: normal;
+    width: 869px;
+    color: white;
+    margin-bottom: 11px;
+}
+.stick_span{
+    display: block;
+    width: 483px;
+    height: 6px;
+    box-shadow: 0px 0px 2px rgba(255, 188, 28, 0.71);
+    margin-bottom: 64px;
+}
+.container_video button{
+    width: 225px;
+    height: 58px;
+    background: linear-gradient(93.8deg, #FFBC1C 0%, #A27201 100%);
+    color: #080B17;
+    font-size: 22.64px;
+    padding: 15px 0;
+}
+.container_video button::after{
+    content: url("../img/svg-right.svg");
+    margin-left: 19px;
+    display: inline;
+    vertical-align: middle;
+}
+.right_block{
+    margin-left: 42px;
+}
+.right_block p{
+    width: 132px;
+    font-size: 19px;
+    color: white;
+    margin-left: 8px;
+}
+.home_footer{
+    padding-left: 8%;
+    bottom: 30px;
+}
+.footer_container h5{
+    font-style: 15px;
+    color: white;
+}
+.footer_stick{
+    display: block;
+    height: 1px;
+    width: 72px;
+}
+.social_media_list{
+    margin-top: 20.83px;
+}
+.footer_anchor:nth-child(2){
+    margin-left: 21.08px;
+}
+.footer_anchor:nth-child(3){
+    margin-left: 19.65px;
+}
+.footer_anchor:hover{
+    transform: scale(1.1);
+}
+.star_game{
+    width: 25%;
+    height: 85%;
+    bottom: 0;
+    right: 134px;
+}
+.star_game img{
+    width: 100%;
+    height: 100%;
+}
+.star_game2{
+    top: 55px;
+    right: 8px;
+}

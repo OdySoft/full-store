@@ -47,6 +47,9 @@
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
+.transition_03s{
+    transition: all 0.3s;
+}
 .none{
     display: none;
 }

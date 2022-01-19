@@ -21,7 +21,45 @@
         padding-top: 110px;
     }
 }
-@media(max-width: 1600px){
+@media(max-width: 1610px){
+    .home_list a{
+        font-size: 18px;
+    }
+    .star_byte_title h2{
+        font-size: 20px;
+    }
+    .star_byte_title h3{
+        font-size: 18px;
+    }
+    .starbyte_container h1{
+        font-size: 50px;
+        margin-top: 105px;
+        margin-bottom: 37px;
+        width: 700px;
+    }
+    .home_button{
+        color: #080B17;
+        max-width: 140px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .starbyte_container .p-t{
+        font-size: 28px;
+        width: 600px;
+    }
+    .stick_span{
+        width: 383px;
+        margin-bottom: 30px;
+    }
+    .star_game2 img{
+        width: 300px;
+    }
+    .container_video button{
+        width: 190px;
+        height: 48px;
+        font-size: 16px;
+        padding: 0;
+    }
     .car-title{
         top: 30%;
         transform: translateY(-30%);
@@ -67,6 +105,32 @@
     }
 }
 @media(max-width: 1366px){
+    .starbyte_container h1{
+        font-size: 30px;
+        width: 400px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .starbyte_container .p-t{
+        font-size: 20px;
+        width: 300px;
+        line-height: 25px;
+    }
+    .stick_span{
+        width: 200px;
+        height: 2px;
+    }
+    .flex_icon{
+        width: 40px;
+        height: 40px;
+    }
+    .flex_icon img{
+        width: 20px;
+    }
+    .right_block p{
+        font-size: 14px;
+    }
     .card-title p{
         font-size: 19px;
     }
@@ -280,6 +344,22 @@
         font-size: 15px;
     }
 }
+@media(max-width: 1124px){
+    .home_list a{
+        font-size: 15px;
+    }
+    .star_byte_title h2{
+        font-size: 18px;
+    }
+    .star_byte_title h3{
+        font-size: 16px;
+    }
+    .home_button{
+        max-width: 110px;
+        font-size: 12px;
+        height: 26px;
+    }
+}
 @media(max-width: 1090px){
     .member-box2:nth-child(2){
         margin: 0px;
@@ -291,6 +371,14 @@
     }
 }
 @media(max-width: 1024px){
+    .container_video button{
+        height: 28px;
+        width: 150px;
+        font-size: 11.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .family-nav li a{
         font-size: 17px;
     }
@@ -478,6 +566,31 @@
     }
 }
 @media(max-width: 950px){
+    .flex_icon{
+        width: 25px;
+        height: 25px;
+    }
+    .flex_icon img{
+        width: 13px;
+    }
+    .right_block{
+        margin-left: 15px;
+    }
+    .home_list a{
+        font-size: 13px;
+    }
+    .home_list:not(:first-child){
+        margin-left: 16px;
+    }
+    .deg-block{
+        transform: rotate(33.88deg) translateX(65%) translateY(-20%);
+    }
+    .star_game2 img{
+        width: 230px;
+    }
+    .star_game{
+        height: 78%;
+    }
     .blocked-container p{
         font-size: 14px;
     }
@@ -522,6 +635,11 @@
     }
     .autoshow-section{
         max-width: 640px;
+    }
+}
+@media(max-width: 850px){
+    .home_list a{
+        font-size: 12px;
     }
 }
 @media(max-width: 800px){
@@ -771,6 +889,24 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+}
+@media(max-height: 640px){
+    .starbyte_container .p-t{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .home_header_container{
+        padding-top: 10px;
+    }
+    .home_footer{
+        bottom: 10px;
+    }
+    .social_media_list{
+        margin-top: 10px;
+    }
+    .starbyte_container h1{
+        margin-top: 35px;
     }
 }
 @media (max-height: 700px){
