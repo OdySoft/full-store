@@ -766,3 +766,48 @@ body{
     top: 55px;
     right: 8px;
 }
+.circle_one{
+    height: 48px;
+    width: 48px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    padding: 11px 19px;
+}
+.starbyte_about{
+    padding-left: 17.5%;
+    padding-top: 110px;
+}
+.starbyte_about .about_span{
+    font-size: 30px;
+    color: white;
+}
+.starbyte_about .about_stick{
+    display: block;
+    height: 2px;
+    width: 128px;
+    margin-top: 1px;
+    box-shadow: 0px 0px 2px rgba(255, 188, 28, 0.71);
+}
+.starbyte_about .about_wrapper{
+    margin-top: 87px;
+}
+.paragraph_container{
+    padding-top: 11px;
+    padding-left: 19px;
+}
+.paragraph_container h4{
+    font-size: 30px;
+/* identical to box height */color: white;
+}
+.about_p{
+    margin-top: 29px;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+    opacity: 0.6;
+    max-width: 977px;
+    font-weight: 300;
+}
