@@ -11,6 +11,33 @@
         padding-top: 70px;
     }
 }
+@media(max-height: 1020px){
+    .starbyte_section3{
+        padding-top: 70px;
+    }
+}
+@media(max-width: 1680px){
+    .gta_wrapper{
+        max-width: 1000px;
+    }
+    .g_box2{
+        max-width: 800px;
+        top: 50px;
+    }
+    .g_box3{
+        top: 80px;
+        max-width: 680px;
+    }
+    .text_wrapper_gta p{
+        font-size: 17px;
+    }
+    .text_wrapper_gta p:last-child{
+        max-width: 430px;
+    }
+    .text_wrapper_gta .install_p:last-child{
+        max-width: 580px;
+    }
+}
 @media(max-width: 1600px) and (max-height: 900px){
     .regis-container h2{
         font-size: 30px;
@@ -34,6 +61,21 @@
     }
 }
 @media(max-width: 1610px){
+    .gta_wrapper span img{
+        height: 70px;
+    }
+    .starbyte_section4, .starbyte_section5{
+        padding-top: 200px;
+    }
+    .g_box2{
+        height: 100px;
+    }
+    .g_box3{
+        height: 90px;
+    }
+    .g_box{
+        height: 130px;
+    }
     .starbyte_about{
         padding-top: 45px;
     }
@@ -84,6 +126,51 @@
     }
 }
 @media(max-width: 1400px){
+    .starbyte_section3{
+        padding-top: 40px;
+    }
+    .text_wrapper_gta .install_p:last-child{
+        max-width: 480px;
+    }
+    .starbyte_section4, .starbyte_section5{
+        padding-top: 150px;
+    }
+    .text_wrapper_gta p{
+        font-size: 14px;
+    }
+    .text_wrapper_gta p:last-child{
+        line-height: 18px;
+    }
+    .gta_circle_icon{
+        width: 72px;
+        height: 72px;
+    }
+    .search_svg{
+        width: 24px;
+    }
+    .gta_wrapper span img{
+        height: 50px;
+    }
+    .gta_wrapper span{
+        top: 20px;
+        transform: translateX(-55px);
+    }
+    .g_box button{
+        width: 130px;
+        height: 30px;
+    }
+    .g_box2{
+        height: 70px;
+    }
+    .g_box3{
+        height: 50px;
+    }
+    .gta_wrapper{
+        max-width: 850px;
+    }
+    .g_box{
+        height: 100px;
+    }
     .starbyte_about .about_span , .paragraph_container h4{
         font-size: 20px;
     }
@@ -375,6 +462,46 @@
     }
 }
 @media(max-width: 1124px){
+    .gta_wrapper span{
+        top: 10px;
+    }
+    .starbyte_section4, .starbyte_section5{
+        padding-top: 110px;
+    }
+    .g_box2{
+        max-width: 500px;
+        top: 16px;
+    }
+    .g_box3{
+        max-width: 340px;
+        top: 51px;
+    }
+    .gta_wrapper{
+        max-width: 640px;
+    }
+    .g_box{
+        padding: 0px 20px 0px 26px;
+        height: 70px;
+    }
+    .gta_circle_icon{
+        height: 60px;
+        width: 60px;
+    }
+    .gta_png{
+        width: 40px;
+    }
+    .hero_png{
+        width: 95%;
+    }
+    .g_box button{
+        font-size: 11px;
+    }
+    .text_wrapper_gta p{
+        font-size: 9px;
+    }
+    .text_wrapper_gta p:last-child{
+        line-height: 10px;
+    }
     .starbyte_about{
         padding-left: 5%;
     }

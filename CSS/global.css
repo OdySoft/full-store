@@ -625,6 +625,7 @@ body{
     width: 1516.32px;
     height: 1521.96px;
     transform: rotate(33.88deg) translateX(63%) translateY(-20%);
+    position: fixed;
 }
 .star_byte_title{
     color: #FFCC00;
@@ -810,4 +811,83 @@ body{
     opacity: 0.6;
     max-width: 977px;
     font-weight: 300;
+}
+.gta_wrapper{
+    max-width: 1125px;
+    width: 100%;
+}
+.gta_wrapper span{
+    color: inherit;
+    z-index: 20;
+    top: 27px;
+    transform: translateX(-80px);
+}
+.starbyte_section3{
+    padding-top: 106px;
+}
+.g_box{
+    width: 100%;
+    height: 178px;
+    background-color: white;
+    z-index: 10;
+    padding: 0px 40px 0px 46px;
+}
+.g_box button{
+    width: 148px;
+    height: 46px;
+    letter-spacing: 1px;
+}
+.margin_top{
+    margin-top: 100px;
+}
+.g_box2{
+    max-width: 993px;
+    width: 100%;
+    height: 151px;
+    background: #FFFFFF;
+    opacity: 0.6;
+    box-shadow: 0px 0px 4px #000000;
+    border-radius: 15px;
+    top: 60px;
+    left: 50%;
+    transform:translateX(-50%);
+    z-index: 7;
+}
+.g_box button:hover{
+    transform: scale(1.1);
+}
+.g_box3{
+    background: #FFFFFF;
+    opacity: 0.3;
+    border-radius: 15px;
+    max-width: 819px;
+    width: 100%;
+    height: 139px;
+    top: 90px;
+    left: 50%;
+    transform:translateX(-50%);
+    z-index: 5;
+}
+.gta_circle_icon{
+    width: 87px;
+    height: 86px;
+    border-radius: 50%;
+}
+.text_wrapper_gta{
+    margin-left: 34px;
+}
+.text_wrapper_gta p{
+    font-size: 21px;
+}
+.text_wrapper_gta p:last-child{
+    max-width: 630px;
+    width: 100%;
+    margin-top: 8px;
+    line-height: 24px;
+}
+.starbyte_section4 , .starbyte_section5{
+    padding-top: 255px;
+}
+.text_wrapper_gta .install_p:last-child{
+    max-width: 710px;
 }
